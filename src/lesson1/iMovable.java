@@ -1,6 +1,6 @@
 package lesson1;
 
 public interface iMovable {
-    public void run();
-    public void jump();
+    boolean run(Track tr);
+    boolean jump(Wall wall);
 }
