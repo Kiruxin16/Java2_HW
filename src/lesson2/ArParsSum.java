@@ -13,7 +13,7 @@ public class ArParsSum {
         }else{
             for (int i = 0; i < check.length; i++) {
                 if(check[i].length!=ARR_SIZE) {
-                    throw new MyArraySizeException("Число элементов в строке №"+i+"не равно 4");
+                    throw new MyArraySizeException("Число элементов в строке №"+(i+1)+" не равно 4");
                 }
             }
         }
