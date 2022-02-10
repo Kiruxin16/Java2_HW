@@ -32,6 +32,14 @@ public class Main {
         PhoneBook.add("Вилин","8(978)8342125");
 
         PhoneBook.add("Алексеев","8(923)8842525");
+
+        PhoneBook.get("Вольнов");
+        PhoneBook.get("Петров");
+        PhoneBook.get("Потапова");
+        PhoneBook.get("Баков");
+
+
+
     }
 
 
